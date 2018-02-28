@@ -1,0 +1,6 @@
+python-ldap-expiry:
+   image: python-ldap-expiry
+   restart: unless-stopped
+   container_name: ldap-expiry
+   hostname: ldap-expiry
+   env_file: .ldap_env

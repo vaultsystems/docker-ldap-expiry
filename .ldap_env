@@ -1,0 +1,5 @@
+# Example environment file to override values
+LDAPURL=ldaps://ldap.example.com
+LDAPBASEDN=ou=People,dc=example,dc=com
+LDAPBINDDN=cn=admin,dc=example,dc=com
+LDAPBINDCREDS=ldappassword
